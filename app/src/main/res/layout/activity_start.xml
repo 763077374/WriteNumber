@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--相对布局头部-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_bg"
+    tools:context="com.mingrisoft.writenumber.StartActivity">
+    <!--相对布局尾部-->
+</RelativeLayout>
+

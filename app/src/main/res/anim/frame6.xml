@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 逐帧动画头部 -->
+
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/on6_1" android:duration="150"/>
+    <item android:drawable="@drawable/on6_2" android:duration="150"/>
+    <item android:drawable="@drawable/on6_3" android:duration="150"/>
+    <item android:drawable="@drawable/on6_4" android:duration="150"/>
+    <item android:drawable="@drawable/on6_5" android:duration="150"/>
+    <item android:drawable="@drawable/on6_6" android:duration="150"/>
+    <item android:drawable="@drawable/on6_7" android:duration="150"/>
+    <item android:drawable="@drawable/on6_8" android:duration="150"/>
+    <item android:drawable="@drawable/on6_9" android:duration="150"/>
+    <item android:drawable="@drawable/on6_10" android:duration="150"/>
+    <item android:drawable="@drawable/on6_11" android:duration="150"/>
+    <item android:drawable="@drawable/on6_12" android:duration="150"/>
+    <item android:drawable="@drawable/on6_13" android:duration="150"/>
+    <item android:drawable="@drawable/on6_14" android:duration="150"/>
+    <item android:drawable="@drawable/on6_15" android:duration="150"/>
+    <item android:drawable="@drawable/on6_16" android:duration="150"/>
+    <item android:drawable="@drawable/on6_17" android:duration="150"/>
+    <item android:drawable="@drawable/on6_18" android:duration="150"/>
+    <item android:drawable="@drawable/on6_19" android:duration="150"/>
+    <item android:drawable="@drawable/on6_20" android:duration="150"/>
+    <item android:drawable="@drawable/on6_21" android:duration="150"/>
+    <item android:drawable="@drawable/on6_22" android:duration="150"/>
+    <item android:drawable="@drawable/on6_23" android:duration="150"/>
+    <item android:drawable="@drawable/on6_24" android:duration="150"/>
+    <!-- 逐帧动画尾部 -->
+</animation-list>
+

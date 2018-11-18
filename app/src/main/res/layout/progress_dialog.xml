@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--相对布局头部-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+
+    <!--演示书写规范-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingIv"
+        android:layout_centerHorizontal="true"/>
+    <!--显示提示性文字-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingTv"
+        android:layout_below="@+id/loadingIv"
+        android:layout_centerHorizontal="true"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"/>
+    <!--相对布局尾部-->
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--外层垂直线性布局头部-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout_number">
+
+    <!-- 演示按钮 -->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/demo_btn"
+        android:layout_margin="10dp"
+        android:onClick="OnYS"/>
+
+    <!-- 书写区域垂直线性布局头部 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayout1"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <!-- 显示书写数字图片 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_frame"/>
+    </LinearLayout>
+
+    <!--外层垂直线性布局尾部-->
+</LinearLayout>

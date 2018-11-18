@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--相对布局头部-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startgame_bg"
+    tools:context=".StartGameActivity">
+    <!--开始游戏按钮-->
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/btn_music"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/play_btn"
+        android:onClick="OnPlay" />
+    <!--背景音乐按钮-->
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_music"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_music1"
+        android:onClick="OnMusic" />
+    <!--关于按钮-->
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/about_btn"
+        android:onClick="OnAbout" />
+    <!--相对布局尾部-->
+</RelativeLayout>
+
+
+
+
+
+
